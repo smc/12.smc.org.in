@@ -1,0 +1,81 @@
+body {
+    color: #526066;
+}
+
+h2, h3 {
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+/*
+ * -- Layout Styles --
+ */
+.l-content {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.l-box {
+    padding: 0.5em 2em;
+}
+
+/*
+ * -- BANNER --
+ */
+.banner {
+    background: #00aad4;
+    height: 597px;
+    width: 100%;
+    background: #00aad4 url('logo.png') center 0 no-repeat fixed;
+}
+
+/*
+ * -- MENU STYLES --
+ */
+.pure-menu {
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    margin-bottom: 3em;
+}
+.pure-menu ul {
+    margin: 0 auto;
+    width: 450px;
+    display: block !important;
+}
+
+.information-head {
+    color: black;
+    font-weight: 500;
+}
+
+.footer {
+    background: #eee;
+    color: #888;
+    text-align: center;
+}
+.footer a {
+    color: #ddd;
+}
+
+/*
+ * -- TABLET MEDIA QUERIES --
+ * On tablets, we want to slightly adjust the size of the banner
+ * text and add some vertical space between the various pricing tables
+ */
+@media(max-width: 767px) {
+
+}
+
+/*
+ * -- PHONE MEDIA QUERIES --
+ * On phones, we want to reduce the height and font-size of the banner further
+ */
+@media (max-width: 480px) {
+    .banner {
+        height: 200px;
+    }
+}
