@@ -112,6 +112,10 @@ p {
     *color: #fff;
 }
 
+#map {
+    height: 500px;
+}
+
 /*
  * -- TABLET MEDIA QUERIES --
  * On tablets, we want to slightly adjust the size of the banner

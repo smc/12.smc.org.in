@@ -6,6 +6,7 @@
     <meta name="description" content="SMC 12th year event">
     <title>സ്വതന്ത്ര മലയാളം കമ്പ്യൂട്ടിങ്ങിന്റെ ഒരു വ്യാഴവട്ടം</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -145,98 +146,117 @@
     </div>
 
     <div class="section background-color">
-    <div class="l-content">
-        <div class="information pure-g-r">
-            <h1>വിളംബര പരിപാടികള്‍ </h1>
-            <div class="pure-u-1">
-                <p>
-                    ഈ സമ്മേളനത്തിന്റെ വിളംബരമെന്നോണമാണു് സെപ്റ്റംബര്‍ ആദ്യവാരം മുതല്‍ കേരള­ത്തിലെ എല്ലാ ജില്ലകളിലെയും വിവിധ വിദ്യാഭ്യാസ , സാംസ്കാരിക സ്ഥപനങ്ങളുമായി സഹകരിച്ച് മലയാളം കമ്പ്യൂട്ടിങ്ങ് ശില്പശാലകള്‍ സംഘടിപ്പിച്ചുവരികയാണു്.   ഈ ആഘോഷത്തിന്റെ വിളംബര പരിപാടിക­ളുടെ തുടക്കമായി കേരളത്തിലുടനീളം നടക്കുന്ന മലയാളം കമ്പ്യൂട്ടിങ്ങ് ശില്പശാല­കളുടെ സംസ്ഥാനതല ഉദ്ഘാടനവും 'സ്വതന്ത്രമലയാളംകമ്പ്യൂട്ടിങ്ങിന്റെ ഒരു വ്യാഴ­വട്ടം' ആഘോഷത്തിന്റെ ലോഗോ പ്രദര്‍ശനവും സെപ്റ്റംബര്‍ 6, വെള്ളിയാഴ്ച കാലത്തു് 10 മണിക്കു് തിരൂര്‍ തുഞ്ചത്തെഴുത്തച്ഛന്‍ മലയാള സര്‍വകലാശാലയില്‍ വച്ചു് നടന്ന ആദ്യ ശി­ല്പശാലയില്‍ വൈസ് ചാന്‍സിലര്‍ ശ്രീ കെ ജയകുമാര്‍ നിര്‍വഹിച്ചു. തുടര്‍ന്നുള്ള ദിവസങ്ങളിലായി കേരളത്തിലെ നിരവധി കലാലയങ്ങളിലും എഞ്ചിനീയറിങ്ങ് കോളേജുകളിലും പോളിടെക്നിക്കുകളിലും മലയാളം കമ്പ്യൂട്ടിങ്ങ് ശില്പശാലകള്‍ നടന്നുവരികയാണു് . മലയാളം കമ്പ്യൂട്ടി­ങ്ങിന്റെ പ്രാഥമികകാര്യങ്ങള്‍ വിദ്യാര്‍ത്ഥികള്‍ക്ക് പകര്‍ന്നു നല്‍കുന്ന വിധത്തിലാണ് ശില്പ­ശാലകള്‍ ക്രമീകരിക്കപ്പെട്ടിട്ടുള്ളതു് .
-                </p>
-            </div>
-
-
-            <h2 class="pure-u-1">Upcoming</h2>
-            <div class="pure-u-1-2">
-                <div class="l-box">
-                    <h3 class="information-head">പ്രസ്‌ക്ലബ് ഇന്‍സ്റ്റിറ്റ്യൂട്ട്, തിരുവനന്തപുരം
-</h3>
+        <div class="l-content">
+            <div class="information pure-g-r">
+                <h1>വിളംബര പരിപാടികള്‍ </h1>
+                <div class="pure-u-1">
                     <p>
-                        സെപ്റ്റംബര്‍ 28
+                        ഈ സമ്മേളനത്തിന്റെ വിളംബരമെന്നോണമാണു് സെപ്റ്റംബര്‍ ആദ്യവാരം മുതല്‍ കേരള­ത്തിലെ എല്ലാ ജില്ലകളിലെയും വിവിധ വിദ്യാഭ്യാസ , സാംസ്കാരിക സ്ഥപനങ്ങളുമായി സഹകരിച്ച് മലയാളം കമ്പ്യൂട്ടിങ്ങ് ശില്പശാലകള്‍ സംഘടിപ്പിച്ചുവരികയാണു്.   ഈ ആഘോഷത്തിന്റെ വിളംബര പരിപാടിക­ളുടെ തുടക്കമായി കേരളത്തിലുടനീളം നടക്കുന്ന മലയാളം കമ്പ്യൂട്ടിങ്ങ് ശില്പശാല­കളുടെ സംസ്ഥാനതല ഉദ്ഘാടനവും 'സ്വതന്ത്രമലയാളംകമ്പ്യൂട്ടിങ്ങിന്റെ ഒരു വ്യാഴ­വട്ടം' ആഘോഷത്തിന്റെ ലോഗോ പ്രദര്‍ശനവും സെപ്റ്റംബര്‍ 6, വെള്ളിയാഴ്ച കാലത്തു് 10 മണിക്കു് തിരൂര്‍ തുഞ്ചത്തെഴുത്തച്ഛന്‍ മലയാള സര്‍വകലാശാലയില്‍ വച്ചു് നടന്ന ആദ്യ ശി­ല്പശാലയില്‍ വൈസ് ചാന്‍സിലര്‍ ശ്രീ കെ ജയകുമാര്‍ നിര്‍വഹിച്ചു. തുടര്‍ന്നുള്ള ദിവസങ്ങളിലായി കേരളത്തിലെ നിരവധി കലാലയങ്ങളിലും എഞ്ചിനീയറിങ്ങ് കോളേജുകളിലും പോളിടെക്നിക്കുകളിലും മലയാളം കമ്പ്യൂട്ടിങ്ങ് ശില്പശാലകള്‍ നടന്നുവരികയാണു് . മലയാളം കമ്പ്യൂട്ടി­ങ്ങിന്റെ പ്രാഥമികകാര്യങ്ങള്‍ വിദ്യാര്‍ത്ഥികള്‍ക്ക് പകര്‍ന്നു നല്‍കുന്ന വിധത്തിലാണ് ശില്പ­ശാലകള്‍ ക്രമീകരിക്കപ്പെട്ടിട്ടുള്ളതു് .
                     </p>
                 </div>
-            </div>
-            <div class="pure-u-1-2">
-                <div class="l-box">
-                    <h3 class="information-head">പ്രസ്‌അക്കാദമി , കാക്കനാടു്, എറണാകുളം
-</h3>
-                    <p>
-                        സെപ്റ്റംബര്‍ 29
-                    </p>
+
+
+                <h2 class="pure-u-1">Upcoming</h2>
+                <div class="pure-u-1-2">
+                    <div class="l-box">
+                        <h3 class="information-head">പ്രസ്‌ക്ലബ് ഇന്‍സ്റ്റിറ്റ്യൂട്ട്, തിരുവനന്തപുരം
+    </h3>
+                        <p>
+                            സെപ്റ്റംബര്‍ 28
+                        </p>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="l-box">
+                        <h3 class="information-head">പ്രസ്‌അക്കാദമി , കാക്കനാടു്, എറണാകുളം
+    </h3>
+                        <p>
+                            സെപ്റ്റംബര്‍ 29
+                        </p>
+                    </div>
+                </div>
+
+                <h2 class="pure-u-1">ഇതുവരെ അടന്ന ശില്പശാലകള്‍</h2>
+                <div class="pure-u-1-2">
+                    <div class="l-box">
+                        <h3 class="information-head">കോളേജ് ഓഫ് എഞ്ചിനീയറിങ്ങ്, തൃക്കരിപ്പൂര്‍, കാസറഗോഡ്</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pure-u-1-2">
+                    <div class="l-box">
+                        <h3 class="information-head">പയ്യന്നൂര്‍ വനിതാ പോളിടെക്നിക്‍, കണ്ണൂര്‍</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pure-u-1-2">
+                    <div class="l-box">
+                        <h3 class="information-head">ശ്രീപതി ഇന്‍സ്റ്റിറ്റ്യൂട്ട് ഓഫ് മാനേജ്മെന്റ് ആന്‍ഡ് ടെക്നോളജി പാലക്കാട്</h3>
+                        <p>
+                            Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pure-u-1-2">
+                    <div class="l-box">
+                        <h3 class="information-head">കുന്ദംകുളം പോളിടെക്നിക്‍ , തൃശ്ശൂര്‍</h3>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pure-u-1-2">
+                    <div class="l-box">
+                        <h3 class="information-head">ആല്‍ബെര്‍ട്ടിയന്‍ ഇന്‍സ്റ്റിറ്റ്യൂട്ട് ഓഫ് സയന്‍സ് ആന്‍ഡ് ടെക്നോളജി</h3>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pure-u-1-2">
+                    <div class="l-box">
+                        <h3 class="information-head">ചേര്‍ത്തല പോളിടെക്നിക്‍ , ആലപ്പുഴ
+    </h3>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
                 </div>
             </div>
-
-            <h2 class="pure-u-1">ഇതുവരെ അടന്ന ശില്പശാലകള്‍</h2>
-            <div class="pure-u-1-2">
-                <div class="l-box">
-                    <h3 class="information-head">കോളേജ് ഓഫ് എഞ്ചിനീയറിങ്ങ്, തൃക്കരിപ്പൂര്‍, കാസറഗോഡ്</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-                    </p>
-                </div>
-            </div>
-
-            <div class="pure-u-1-2">
-                <div class="l-box">
-                    <h3 class="information-head">പയ്യന്നൂര്‍ വനിതാ പോളിടെക്നിക്‍, കണ്ണൂര്‍</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
-                    </p>
-                </div>
-            </div>
-
-            <div class="pure-u-1-2">
-                <div class="l-box">
-                    <h3 class="information-head">ശ്രീപതി ഇന്‍സ്റ്റിറ്റ്യൂട്ട് ഓഫ് മാനേജ്മെന്റ് ആന്‍ഡ് ടെക്നോളജി പാലക്കാട്</h3>
-                    <p>
-                        Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-            </div>
-
-            <div class="pure-u-1-2">
-                <div class="l-box">
-                    <h3 class="information-head">കുന്ദംകുളം പോളിടെക്നിക്‍ , തൃശ്ശൂര്‍</h3>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-            </div>
-
-            <div class="pure-u-1-2">
-                <div class="l-box">
-                    <h3 class="information-head">ആല്‍ബെര്‍ട്ടിയന്‍ ഇന്‍സ്റ്റിറ്റ്യൂട്ട് ഓഫ് സയന്‍സ് ആന്‍ഡ് ടെക്നോളജി</h3>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-            </div>
-
-            <div class="pure-u-1-2">
-                <div class="l-box">
-                    <h3 class="information-head">ചേര്‍ത്തല പോളിടെക്നിക്‍ , ആലപ്പുഴ
-</h3>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-            </div>
-
         </div>
     </div>
+        
+    <div class="section">
+        <div class="l-content">
+            <h1>വേദിയിലേക്കുള്ള വഴി</h1>
+        </div>
+        <div class="l-box">                
+            <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+            <div id="map"></div>
+            <script type='text/javascript'>
+                var map = new L.Map('map', {center: new L.LatLng(10.52930,76.21854), zoom: 15});
+                var mapquestUrl = 'http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png',
+                subDomains = ['otile1','otile2','otile3','otile4'],
+                mapquestAttrib = '<a href="http://open.mapquest.co.uk" target="_blank">MapQuest</a>,'+
+                '<a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors. CC-BY-SA';
+                var mapquest = new L.TileLayer(mapquestUrl, {maxZoom: 18, attribution: mapquestAttrib, subdomains: subDomains});
+                mapquest.addTo(map);
+                var marker = L.marker([10.52930,76.21854]).addTo(map)
+            </script>
+         </div>
     </div>
 
     <div class="footer">
