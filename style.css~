@@ -82,5 +82,3 @@ p {
         height: 200px;
     }
 }
-
-#map { height: 180px; }
