@@ -275,8 +275,19 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/jquery.smooth-scroll.min.js"></script>
     <script>
-    $(document) .ready(function() {
-        $('.pure-menu a').smoothScroll();
+    $(document).ready(function() {
+        var menu = $('.pure-menu');
+        $('a', menu).smoothScroll();
+        $(function(){
+            var stickyHeaderTop = menu.offset().top;
+            $(window).scroll(function(){
+                if( $(window).scrollTop() > stickyHeaderTop ) {
+                    menu.addClass('pure-menu-fixed');
+                } else {
+                    menu.removeClass('pure-menu-fixed');
+                }
+            });
+        });
     });
   </script>
 
