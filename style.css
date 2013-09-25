@@ -52,7 +52,7 @@ h1 {
 
 .pure-menu ul {
     margin: 0 auto;
-    width: 550px;
+    width: 650px;
     display: block !important;
 }
 
@@ -141,6 +141,10 @@ h1 {
 
 .upcoming p {
     color: #ddd;
+}
+
+iframe {
+    overflow: hidden;
 }
 
 
