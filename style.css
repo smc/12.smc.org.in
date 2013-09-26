@@ -133,6 +133,7 @@ h1 {
 
 .upcoming {
     background: #519251;
+    min-height: 175px;
 }
 
 .upcoming:hover {
