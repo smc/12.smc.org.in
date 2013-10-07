@@ -78,6 +78,17 @@ h1 {
     background: #F9F9F9;
 }
 
+.register-button {
+    font-size: 150%;
+    background: none repeat scroll 0 0 #02A6EB;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+#register {
+    text-align: center;
+}
+
 /*
  * -- SPONSORS  --
  */
