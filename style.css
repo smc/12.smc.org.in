@@ -30,7 +30,8 @@ h1 {
 
 .section {
     width: 100%;
-    min-height: 500px;
+    min-height: 450px;
+    padding-top: 25px;
 }
 
 /*
@@ -52,7 +53,7 @@ h1 {
 
 .pure-menu ul {
     margin: 0 auto;
-    width: 650px;
+    width: 500px;
     display: block !important;
 }
 
