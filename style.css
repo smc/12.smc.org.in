@@ -207,9 +207,12 @@ iframe {
 }
 
 .day-table-list li span{
+    display: block;
+    float: left;
     font-size: 2em;
     margin: 0 0.2em;
     font-weight: 100;
+    line-height: 1em;
 }
 
 /*
