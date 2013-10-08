@@ -159,6 +159,58 @@ iframe {
     overflow: hidden;
 }
 
+.day-table {
+    max-width: 980px;
+    border: 1px solid #ddd;
+    margin: 1em auto;
+    padding: 0 0 3em;
+    background: #f7f7f7;
+}
+
+.day-table-header {
+    background: #519251;
+    color: #fff;
+    text-align: center;
+}
+
+.day-table-header h2 {
+    margin: 0;
+    padding-top: 2em;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.day-table-date {
+    font-size: 6em;
+    margin: 0.2em 0 0;
+    font-weight: 100;
+}
+
+.day-table-date span {
+    display: block;
+    font-size: 0.2em;
+    padding-bottom: 2em;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    *color: #fff;
+}
+
+.day-table-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+}
+
+.day-table-list li {
+    padding: 0.8em 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.day-table-list li span{
+    font-size: 2em;
+    margin: 0 0.2em;
+    font-weight: 100;
+}
 
 /*
  * -- TABLET MEDIA QUERIES --
