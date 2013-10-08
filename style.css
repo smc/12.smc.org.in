@@ -206,7 +206,7 @@ iframe {
     border-bottom: 1px solid #e7e7e7;
 }
 
-.day-table-list li span{
+.day-table-list li span.time{
     display: block;
     float: left;
     font-size: 2em;
@@ -215,6 +215,14 @@ iframe {
     line-height: 1em;
 }
 
+.day-table-list li span.hall{
+    font-size: 0.7em;
+}
+
+.details {
+    clear: both;
+    margin-top: 1em;
+}
 /*
  * -- TABLET MEDIA QUERIES --
  * On tablets, we want to slightly adjust the size of the banner
