@@ -40,7 +40,7 @@ h1 {
 .banner {
     height: 597px;
     width: 100%;
-    background: #00aad4 url('logo.png') center 0 no-repeat fixed;
+    background: #00aad4 url('img/logo.png') center 0 no-repeat fixed;
 }
 
 /*
@@ -70,6 +70,13 @@ h1 {
 
 .footer a {
     color: #ddd;
+}
+
+.language-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
 }
 
 /*
