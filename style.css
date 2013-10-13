@@ -41,6 +41,7 @@ h1 {
     height: 597px;
     width: 100%;
     background: #00aad4 url('img/logo.png') center 0 no-repeat fixed;
+    background-size: contain;
 }
 
 /*
@@ -247,5 +248,9 @@ iframe {
 @media (max-width: 480px) {
     .banner {
         height: 200px;
+    }
+
+    .pure-menu-horizontal {
+        font-size: 0.8em;
     }
 }
